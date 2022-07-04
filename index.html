@@ -1,0 +1,400 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap-grid.min.css" integrity="sha512-Xj2sd25G+JgJYwo0cvlGWXoUekbLg5WvW+VbItCMdXrDoZRWcS/d40ieFHu77vP0dF5PK+cX6TIp+DsPfZomhw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap-reboot.min.css" integrity="sha512-ioOlrrQQ3fZN/A7N2rZVm6JXp/Lg7xtda9OaRKornjBcuTW/UqIhTlPyngcGQGrQTOhJgmSltKM4v3Ne03WPug==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+
+    <link href="./app.css" rel="stylesheet">
+
+    <title>Swapi</title>
+</head>
+<body>
+
+
+<header class="header">
+    <div class="container">
+        <div class="header__menu">
+            <img src="./images/header_logo.svg" class="header__menu__logo" alt="Logo">
+
+            <div class="header__menu__links">
+                <a href="#slider">Как это работает</a>
+                <a href="#who">Преимущества</a>
+                <a href="#exchange">Обмен лучше покупок</a>
+            </div>
+            <a href="#promo" class="btn header__menu__button">Начать</a>
+        </div>
+    </div>
+
+    <div class="main-banner">
+        <div class="container">
+            <div class="main-banner__body">
+                <img src="./images/logo.svg" class="main-banner__logo" alt="Logo banner">
+
+                <h1 class="main-banner__title">Обмен еще никогда не был так прост</h1>
+                <div class="main-banner__desc">Скачайте новое приложения для обмена вещами и убедитесь в этом сами:</div>
+
+                <a href="" class="btn btn--apple"><img src="./images/button-apple.svg"></a>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<div class="sec-slider sec sec-bg" id="slider">
+    <div class="container-wrap">
+        <div class="container">
+
+
+            <div class="slider-area">
+                <div class="slider-area__texts__wrap">
+                    <h2 class="sec-slider__title">
+                        Как это работает?
+                    </h2>
+
+                    <div class="slider-area__texts">
+
+                        <div class="slider-area__text">
+                            <div class="slider-area__text__title">
+                                Разместите
+                            </div>
+                            <div class="slider-area__text__description">
+                                Сфотографируйте предмет, который хотите обменять, или снимите видео и заполните краткое описание
+                            </div>
+                        </div>
+
+                        <div class="slider-area__text">
+                            <div class="slider-area__text__title">
+                                Лайкните
+                            </div>
+                            <div class="slider-area__text__description">
+                                Свайпайте карточки,  скрольте ленту  или пишите поисковые запросы, лайкая вещи, которые вам нравятся
+                            </div>
+                        </div>
+
+                        <div class="slider-area__text">
+                            <div class="slider-area__text__title">
+                                Обменяйтесь
+                            </div>
+                            <div class="slider-area__text__description">
+                                Как только вы получите взаимный лайк от другого пользователя, назначайте встречу и совершайте обмен!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="js-slide-next slider-area__btn">
+                        <lottie-player class="" style="width: 160px; height: 160px"></lottie-player>
+                    </div>
+
+
+                </div>
+                <div class="slider-area__phone">
+
+                    <div class="slider-area__numbers">
+                        <div class="slider-area__number__statics num_base num_0">
+                            <div></div>
+                        </div>
+                        <div class="slider-area__number__sliders">
+                            <div class="num_base num_1"><div></div></div>
+                            <div class="num_base num_2"><div></div></div>
+                            <div class="num_base num_3"><div></div></div>
+                        </div>
+                    </div>
+
+                    <div class="slider-area__phone__wrap">
+                        <div class="slider-area__phone__cover">
+                            <div class="slider-area__phone__video">
+                                <video  preload="auto" no-controls autoplay playsinline muted class="js-video-slider">
+                                    <source src="./video/1.mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="sec-who sec" id="who">
+    <div class="container">
+        <h2 class="sec-who__title">Почему выбирают SWAPI?</h2>
+        <div class="who-list">
+            <div class="who-item">
+                <lottie-player mode="normal" class="who-item__icon" data-icon-type="speedometer"></lottie-player>
+
+
+                <div class="who-item__body">
+                    <h5 class="who-item__body__title">Скорость</h5>
+                    <div class="who-item__body__description">
+                        Больше не нужно неделями искать покупателей на досках объявлений, а после ждать появление нужного объявления. Обмен вещами со SWAPI гораздо проще и быстрее!
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="who-item">
+                <lottie-player mode="normal" class="who-item__icon" data-icon-type="scales"></lottie-player>
+
+
+                <div class="who-item__body">
+                    <h5 class="who-item__body__title">Равноценность</h5>
+                    <div class="who-item__body__description">
+                        Алгоритмы SWAPI подберут для вас самые релевантные варианты для обмена
+                    </div>
+                </div>
+            </div>
+
+            <div class="who-item">
+                <lottie-player mode="normal" class="who-item__icon" data-icon-type="figures"></lottie-player>
+
+
+                <div class="who-item__body">
+                    <h5 class="who-item__body__title">Простота</h5>
+                    <div class="who-item__body__description">
+                        Простой интерфейс и знакомые способы взаимодействия помогут вам разобраться в приложении за пару минут
+                    </div>
+                </div>
+            </div>
+
+            <div class="who-item">
+                <lottie-player mode="normal" class="who-item__icon" data-icon-type="variability"></lottie-player>
+
+
+                <div class="who-item__body">
+                    <h5 class="who-item__body__title">Вариативность</h5>
+                    <div class="who-item__body__description">
+                        Свайпать рекомендованные карточки или искать что-то конкретное через поисковую строку? Темное или светлое оформление? Решать только вам!
+                    </div>
+                </div>
+            </div>
+
+            <div class="who-item">
+                <lottie-player mode="normal" class="who-item__icon" data-icon-type="camera"></lottie-player>
+                <div class="who-item__body">
+                    <h5 class="who-item__body__title">Реальные товары</h5>
+                    <div class="who-item__body__description">
+                        В SWAPI пользователи могут фотографировать вещи только из приложения, соответственно в приложении размещены только реальные товары
+                    </div>
+                </div>
+            </div>
+            <div class="who-item">
+                <lottie-player mode="normal" class="who-item__icon" data-icon-type="gift"></lottie-player>
+                <div class="who-item__body">
+                    <h5 class="who-item__body__title">Это бесплатно</h5>
+                    <div class="who-item__body__description">
+                        Вы можете начать пользоваться сервисом совершенно бесплатно. Платная подписка расширит функционал приложения и ускорит обмен
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="sec-exchange sec sec-bg" id="exchange">
+    <div class="container-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 " style="position: relative;">
+                    <div class="sec-exchange__bg">
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="sec-exchange__title">
+                        Выбирите <strong>обмен</strong><br>
+                        вместо покупок
+                    </div>
+                    <div class="sec-exchange__description">
+                        <p>Вы устали делать покупки в переполненных торговых центрах, и у вас дома накопилось много ненужных вещей?</p>
+                        <p>Тогда обмен в SWAPI поможет вам получить что-то нужное в обмен на ненужное без лишних финансовых затрат</p>
+                    </div>
+
+                    <div class="sec-exchange__title">
+                        Обмен – это и про осознанность
+                    </div>
+
+                    <blockquote class="sec-exchange__quote">
+                        <div class="sec-exchange__quote__text">
+                            Разумное потребление – это не жесткая экономия, отречение от всех благ и удобств. Разумное потребление – это умение искать информацию и анализировать, принимать решения о покупках самостоятельно, а не под влиянием трендов и мнений окружающих.
+                        </div>
+                        <div class="sec-exchange__quote__note">
+                            Яна Потрекий,<br>
+                            Zero Waste: осознанное потребление без фанатизма
+                        </div>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="end-bg">
+    <div class="sec-promo sec" id="promo">
+        <div class="container-wrap">
+            <div class="container">
+                <div class="sec-promo__title">
+                    Это еще не все!
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="promo-phone">
+                            <img src="images/phone.png">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6" style="padding: 0">
+                        <div class="sec-promo__text">
+                            Скачивайте приложение сейчас и получите подписку SWAPI Plus бесплатно на 30 дней
+                        </div>
+
+                        <a href="" class="btn btn--apple sec-promo__btn"><img src="./images/button-apple.svg"></a>
+
+
+                        <div class="sec-promo__list-title">
+                            С подпиской SWAPI Plus обмен станет еще проще:
+                        </div>
+
+                        <div class="sec-promo__list">
+                            <div class="sec-promo__list__item">
+                                <div class="sec-promo__list__item__icon">  <svg xmlns="http://www.w3.org/2000/svg" width="57.918" height="56" viewBox="0 0 57.918 56">
+                                    <g id="Сгруппировать_1533" data-name="Сгруппировать 1533" transform="translate(1.278)">
+                                        <g id="Сгруппировать_1077" data-name="Сгруппировать 1077" transform="translate(0 7)">
+                                            <path id="Контур_556" data-name="Контур 556" d="M9.916,0H21.233a9.916,9.916,0,0,1,9.916,9.917v23.17A9.916,9.916,0,0,1,21.233,43H9.916A9.916,9.916,0,0,1,0,33.087V9.917A9.916,9.916,0,0,1,9.916,0Z" transform="translate(23.803)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2.5"/>
+                                            <g id="Сгруппировать_1076" data-name="Сгруппировать 1076" transform="translate(0 2.229)">
+                                                <path id="Контур_389" data-name="Контур 389" d="M23.745,6.666a9.869,9.869,0,0,0-7,1.1l-7.186,4.2A9.894,9.894,0,0,0,5.943,25.5l9.543,16.567a9.94,9.94,0,0,0,9.73,4.877" transform="translate(-4.608 -6.446)" fill="none" stroke="#8a8a8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+                                            </g>
+                                        </g>
+                                        <rect id="Прямоугольник_1902" data-name="Прямоугольник 1902" width="55.998" height="56" transform="translate(0.643)" fill="none"/>
+                                        <path id="Контур_494" data-name="Контур 494" d="M7.474,15.844a4.511,4.511,0,0,0,4.84-4.6v-.018A4.143,4.143,0,0,0,8.084,6.884,3.189,3.189,0,0,0,5.277,8.3H5.122l.365-4h6.061V2.363H3.655l-.638,7.7H5.031a2.584,2.584,0,0,1,.611-.747A2.7,2.7,0,0,1,7.5,8.661a2.491,2.491,0,0,1,2.579,2.607v.018a2.5,2.5,0,0,1-2.6,2.634,2.425,2.425,0,0,1-2.516-1.932l-.009-.064H2.789l.009.118C2.971,14.2,4.785,15.844,7.474,15.844Zm6.58-.328H16.5l2.032-3.464h.155l2.042,3.464h2.552l-3.254-5.04,3.217-4.922H20.753L18.785,9.008H18.63L16.652,5.553H14.027l3.254,5.022Z" transform="translate(26.701 18.896)"/>
+                                    </g>
+                                </svg>
+                                </div>
+                                добавляйте до 5 новых карточек,
+                            </div>
+
+                            <div class="sec-promo__list__item">
+                                <div class="sec-promo__list__item__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50.305" height="44.547" viewBox="0 0 50.305 44.547">
+                                        <g id="Сгруппировать_1182" data-name="Сгруппировать 1182" transform="translate(1.25 1.25)">
+                                            <g id="Сгруппировать_1180" data-name="Сгруппировать 1180" transform="translate(0 13.86)">
+                                                <path id="Stroke_1-149" data-name="Stroke 1-149" d="M33.81,15.44h-28" transform="translate(-5.81 -8.627)" fill="none" stroke="#8a8a8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+                                                <path id="Stroke_3-123" data-name="Stroke 3-123" d="M14.88,12.52l6.837,6.813-6.837,6.79" transform="translate(6.283 -12.52)" fill="none" stroke="#8a8a8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+                                            </g>
+                                            <g id="Сгруппировать_1181" data-name="Сгруппировать 1181" transform="translate(3.471)">
+                                                <path id="Контур_432" data-name="Контур 432" d="M15.306,34.207l13.253,14a1.283,1.283,0,0,0,.933.42,1.237,1.237,0,0,0,.933-.42L47.95,29.54a14,14,0,0,0,0-18.923,12.04,12.04,0,0,0-17.78,0l-.677.7-.747-.817a12.04,12.04,0,0,0-17.78,0A13.627,13.627,0,0,0,7.3,20.184" transform="translate(-7.298 -6.58)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+                                                <path id="Контур_435" data-name="Контур 435" d="M21.14,9.66a6.51,6.51,0,0,1,4.48,5.647A6.51,6.51,0,0,0,21.14,9.66Z" transform="translate(11.159 -2.473)" fill="none" stroke="#8a8a8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                просматривайте входящие лайки,
+                            </div>
+
+                            <div class="sec-promo__list__item">
+                                <div class="sec-promo__list__item__icon">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="59.284" height="44.711" viewBox="0 0 59.284 44.711" >
+                                        <g id="Монтажная_область_5_копия" data-name="Монтажная область 5 копия" transform="translate(1.25 1.25)">
+                                            <path id="Контур_433" data-name="Контур 433" d="M26.777,48.5a1.231,1.231,0,0,1-.942-.4L8.049,29.434a13.9,13.9,0,0,1,0-18.923A12.235,12.235,0,0,1,26,10.51l.777.817.66-.7a12.235,12.235,0,0,1,17.951,0,13.9,13.9,0,0,1,0,18.923L27.7,48.217a1.328,1.328,0,0,1-.919.28Z" transform="translate(-4.332 -6.59)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+                                            <path id="Stroke_3-135" data-name="Stroke 3-135" d="M18.19,9.6a6.453,6.453,0,0,1,4.5,5.6" transform="translate(14.455 -2.576)" fill="none" stroke="#8a8a8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="isolation: isolate"/>
+                                            <path id="Контур_434" data-name="Контур 434" d="M19.33,37.757l3.934,4.153a1.018,1.018,0,0,0,.707.3.923.923,0,0,0,.707-.3l13.31-14a10.426,10.426,0,0,0,0-14.21,9.8,9.8,0,0,0-3.039-2.17" transform="translate(16.001 -0.003)" fill="none" stroke="#8a8a8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+                                        </g>
+                                    </svg>
+                                </div>
+
+                                получайте больше лайков,
+                            </div>
+
+                            <div class="sec-promo__list__item">
+                                <div class="sec-promo__list__item__icon">
+                                    <svg id="Иконка_Мегафон_" data-name="Иконка &quot;Мегафон&quot;" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+                                        <g id="Монтажная_область_5_копия_3" data-name="Монтажная область 5 копия 3" transform="translate(3.832 3.968)">
+                                            <path id="Контур_423" data-name="Контур 423" d="M21.1,24.877V10.527H13.941a7.187,7.187,0,1,0,0,14.35Z" transform="translate(-6.345 1.603)" fill="none" stroke="#8a8a8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+                                            <path id="Контур_424" data-name="Контур 424" d="M39.64,7.015a1.4,1.4,0,0,0-.537,0L15.77,14.738V30.3" transform="translate(6.223 -3.099)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+                                            <path id="Контур_425" data-name="Контур 425" d="M19.27,28.207,34.437,33.2a1.983,1.983,0,0,0,1.727-.49,2.52,2.52,0,0,0,.817-1.867V10.52" transform="translate(10.889 1.609)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+                                            <path id="Контур_426" data-name="Контур 426" d="M11.66,26.663a2.333,2.333,0,0,0,2.333-2.333" transform="translate(0.743 20.023)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+                                            <path id="Контур_427" data-name="Контур 427" d="M16.56,21.6a3.873,3.873,0,0,0-7.21,1.96v4.667" transform="translate(-2.337 13.84)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+                                            <path id="Stroke_5-78" data-name="Stroke 5-78" d="M7.64,54.246l11.2-11.225L39.449,22.412,55.976,5.91" transform="translate(-6.105 -5.91)" fill="none" stroke="#8a8a8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+                                        </g>
+                                        <rect id="Прямоугольник_1960" data-name="Прямоугольник 1960" width="56" height="56" fill="none"/>
+                                    </svg>
+
+                                </div>
+                                не отвлекайтесь на рекламу.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__menu">
+                <img src="./images/header_logo.svg" alt="logo">
+
+                <div class="footer__socials">
+                    <a href="#">
+                        <svg id="СС_Twitter" data-name="СС / Twitter" xmlns="http://www.w3.org/2000/svg" width="41.839" height="40" viewBox="0 0 41.839 40">
+                            <rect id="Прямоугольник_2217" data-name="Прямоугольник 2217" width="40" height="40" fill="none"></rect>
+                            <g id="Livello_x0020_1" transform="translate(2.426 5.486)">
+                                <path id="Контур_553" data-name="Контур 553" d="M37.414,3.793a16.222,16.222,0,0,1-4.645,1.27A8.086,8.086,0,0,0,36.32.588a16.2,16.2,0,0,1-5.133,1.964A8.091,8.091,0,0,0,17.2,8.085a7.885,7.885,0,0,0,.212,1.84A22.94,22.94,0,0,1,.746,1.476a8.089,8.089,0,0,0,2.5,10.79A8.067,8.067,0,0,1-.412,11.254v.1A8.088,8.088,0,0,0,6.073,19.28a8.19,8.19,0,0,1-2.129.282,8.106,8.106,0,0,1-1.523-.147,8.1,8.1,0,0,0,7.55,5.615A16.217,16.217,0,0,1-.071,28.494,17.422,17.422,0,0,1-2,28.383a22.882,22.882,0,0,0,12.4,3.634c14.87,0,23-12.319,23-23,0-.353-.006-.7-.024-1.047a16.353,16.353,0,0,0,4.034-4.187Z" transform="translate(2 0)" fill-rule="evenodd"></path>
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg id="СС_Instagram" data-name="СС / Instagram" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                            <rect id="Прямоугольник_2215" data-name="Прямоугольник 2215" width="40" height="40" fill="none"></rect>
+                            <g id="instagram-seeklogo.com" transform="translate(3.333 3.333)">
+                                <path id="Контур_554" data-name="Контур 554" d="M16.93,3.051c4.521,0,5.056.017,6.841.1a9.371,9.371,0,0,1,3.144.583A5.246,5.246,0,0,1,28.862,5a5.245,5.245,0,0,1,1.266,1.947,9.369,9.369,0,0,1,.583,3.144c.081,1.785.1,2.321.1,6.841s-.017,5.056-.1,6.841a9.369,9.369,0,0,1-.583,3.144,5.606,5.606,0,0,1-3.213,3.213,9.369,9.369,0,0,1-3.144.583c-1.785.081-2.32.1-6.841.1s-5.056-.017-6.841-.1a9.368,9.368,0,0,1-3.144-.583A5.245,5.245,0,0,1,5,28.862a5.245,5.245,0,0,1-1.266-1.947,9.369,9.369,0,0,1-.583-3.144c-.081-1.785-.1-2.321-.1-6.841s.017-5.056.1-6.841a9.369,9.369,0,0,1,.583-3.144A5.245,5.245,0,0,1,5,5,5.246,5.246,0,0,1,6.945,3.732a9.37,9.37,0,0,1,3.144-.583c1.785-.081,2.321-.1,6.841-.1M16.93,0c-4.6,0-5.175.019-6.98.1A12.427,12.427,0,0,0,5.84.889a8.3,8.3,0,0,0-3,1.953,8.3,8.3,0,0,0-1.953,3A12.427,12.427,0,0,0,.1,9.95C.019,11.756,0,12.332,0,16.93s.019,5.175.1,6.98a12.427,12.427,0,0,0,.787,4.11,8.3,8.3,0,0,0,1.953,3,8.3,8.3,0,0,0,3,1.953,12.427,12.427,0,0,0,4.11.787c1.806.082,2.382.1,6.98.1s5.175-.019,6.98-.1a12.427,12.427,0,0,0,4.11-.787,8.657,8.657,0,0,0,4.951-4.951,12.427,12.427,0,0,0,.787-4.11c.082-1.806.1-2.382.1-6.98s-.019-5.175-.1-6.98a12.427,12.427,0,0,0-.787-4.11,8.3,8.3,0,0,0-1.953-3,8.3,8.3,0,0,0-3-1.953A12.427,12.427,0,0,0,23.911.1C22.1.019,21.528,0,16.93,0Zm0,8.236a8.694,8.694,0,1,0,8.694,8.694A8.694,8.694,0,0,0,16.93,8.236Zm0,14.338a5.644,5.644,0,1,1,5.644-5.644A5.644,5.644,0,0,1,16.93,22.574ZM28,7.893a2.032,2.032,0,1,1-2.032-2.032A2.032,2.032,0,0,1,28,7.893Z" transform="translate(0)"></path>
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg id="СС_TikTok" data-name="СС / TikTok" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                            <rect id="Прямоугольник_2216" data-name="Прямоугольник 2216" width="40" height="40" fill="none"></rect>
+                            <g id="Сгруппировать_1582" data-name="Сгруппировать 1582" transform="translate(6.098 4.597)">
+                                <g id="Сгруппировать_1584" data-name="Сгруппировать 1584" transform="translate(0 0)">
+                                    <path id="Cib-tiktok__CoreUI_Icons_v1.0.0_" data-name="Cib-tiktok_(CoreUI_Icons_v1.0.0)" d="M16.915.026C18.618,0,20.311.016,22,0a8.1,8.1,0,0,0,2.277,5.429,9.188,9.188,0,0,0,5.516,2.327V13a13.822,13.822,0,0,1-5.465-1.26,15.813,15.813,0,0,1-2.109-1.21c-.009,3.8.016,7.6-.024,11.386a9.9,9.9,0,0,1-1.76,5.128,9.687,9.687,0,0,1-7.69,4.173,9.468,9.468,0,0,1-5.306-1.336,9.8,9.8,0,0,1-4.747-7.431c-.031-.651-.042-1.3-.016-1.936a9.8,9.8,0,0,1,11.359-8.7c.026,1.927-.051,3.853-.051,5.78a4.476,4.476,0,0,0-5.7,2.76,5.172,5.172,0,0,0-.177,2.093,4.441,4.441,0,0,0,8.157,1.642A3.068,3.068,0,0,0,16.8,22.7c.128-2.327.077-4.645.093-6.973.011-5.245-.016-10.476.024-15.7Z" transform="translate(-2.664)"></path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="footer__links">
+                    <a href="#">Связаться с нами</a><br>
+                    <a href="#">Политика конфиденциальности</a>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                © 2022 SWAPI
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
+
+
